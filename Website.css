@@ -1,0 +1,124 @@
+body{
+    background-color: black;
+}
+#header{
+    background-image: url(blackspace.jpg);
+    background-position: top;
+    background-size: 100%;
+    padding: 50px;
+}
+.name h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    text-align: center;
+    color: white;
+}
+.intr h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color:rgb(144, 0, 255);
+    color: white;
+}
+.par {
+    background-color: rgb(9, 69, 121);
+    padding: 40px;
+    overflow: hidden;
+}
+.par p {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:left;
+}
+.par img {
+    width:600px;
+    height: auto;
+    float:right;
+    border-radius: 15px;
+    margin-left: 40px;
+    box-sizing:border-box;
+}
+.par2 {
+    background-color: rgb(134, 112, 11);
+    padding: 40px;
+    overflow: hidden;
+}
+.par2 p {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:left;
+}
+.par2 img {
+    width:auto;
+    height: 300px;
+    float:left;
+    border-radius: 15px;
+    margin-right: 50px;
+    box-sizing:border-box;
+}
+.par3 {
+    background-color: rgb(104, 9, 121);
+    padding: 40px;
+    overflow: hidden;
+}
+.par3 p {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:left;
+}
+.par3 img {
+    width:600px;
+    height: 400px;
+    float:right;
+    border-radius: 15px;
+    margin-left: 40px;
+    box-sizing:border-box;
+}
+nav ul li{
+    display:inline-table;
+    list-style: none;
+    margin: 10px 20px;
+    float: right;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 23px;
+    position: relative;
+}
+
+a:hover{
+    color: rgb(144, 0, 255);
+    
+}
+
+nav ul li a::after{
+    content: '';
+    width: 0%;
+    height: 3px;
+    background: rgb(144, 0, 255);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width:100%;
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background: black;
+    font-weight: 300;
+    margin-top: 5px;
+    color: white;
+}
+.copyright i{
+    color: rgb(144, 0, 255);
+}

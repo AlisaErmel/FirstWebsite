@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+}
+.picture img {
+    width:1508px;
+    height: auto;
+    box-sizing:border-box;
+    position: relative;
+}
+figcaption {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.heading h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    background-color:rgb(255, 0, 0);
+    color: white;
+}
+h2{
+    background-color:chocolate;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: white;
+    text-align: center;
+}
+#maintext {
+    background-color: rgb(0, 0, 0);
+    padding: 40px;
+    overflow: hidden;
+}
+.mercury p {
+  color: white;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align:left;
+}
+.mercury img {
+    width:200px;
+    height: auto;
+    float:right;
+    border-radius: 15px;
+    margin-left: 40px;
+    box-sizing:border-box;
+}
+.venus p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
+  }
+.venus img {
+    width:300px;
+    height: auto;
+    float:left;
+    margin-left: 30px;
+    border-radius: 15px;
+    box-sizing:border-box;
+    margin-right: 40px;
+}
+.earth p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
+  }
+.earth img {
+    width:300px;
+    height: auto;
+    float:right;
+    border-radius: 15px;
+    margin-left: 40px;
+    box-sizing:border-box;
+}
+.mars p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
+  }
+.mars img {
+    width:300px;
+    height: auto;
+    float:left;
+    margin-left: 30px;
+    border-radius: 15px;
+    box-sizing:border-box;
+    margin-right: 40px;
+}
+.jupiter p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
+  }
+.jupiter img {
+    width:200px;
+    height: auto;
+    float:right;
+    border-radius: 15px;
+    margin-left: 40px;
+    box-sizing:border-box;
+}
+.saturn p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
+  }
+.saturn img {
+    width:250px;
+    height: auto;
+    float:left;
+    margin-left: 30px;
+    border-radius: 15px;
+    box-sizing:border-box;
+    margin-right: 40px;
+}
+.uranus p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
+  }
+.uranus img {
+    width:200px;
+    height: auto;
+    float:right;
+    border-radius: 15px;
+    margin-left: 40px;
+    box-sizing:border-box;
+}
+.neptune p {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align:left;
+  }
+.neptune img {
+    width:250px;
+    height: auto;
+    float:left;
+    margin-left: 30px;
+    border-radius: 15px;
+    box-sizing:border-box;
+    margin-right: 40px;
+}
+.home a{
+    background-color:black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 10px;
+    color: black;
+    text-align: center;
+}
+.home a{
+    color:white;
+    text-decoration: none;
+    font-size: 23px;
+    position: relative;
+    float: right;
+}
+
+a:hover{
+    color: rgb(144, 0, 255);
+    
+}
+.copyright{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    background: black;
+    font-weight: 300;
+    margin-top: 5px;
+    color: white;
+}
