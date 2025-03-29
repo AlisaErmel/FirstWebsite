@@ -1,5 +1,5 @@
 # Universe Nature
-## My first website, that I did.
+## My first simple website, that I did only with HTML and CSS.
 
 It is contains information about:
   + Planets
